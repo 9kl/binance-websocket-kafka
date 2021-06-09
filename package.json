@@ -1,0 +1,26 @@
+{
+  "name": "binance-websocket-kafka",
+  "version": "1.0.0",
+  "description": "通过binance的websocket api获取实时数据并写入到kafka中",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/9kl/binance-websocket-kafka.git"
+  },
+  "keywords": [
+    "binance-websocket-kafka"
+  ],
+  "author": "9kl",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/9kl/binance-websocket-kafka/issues"
+  },
+  "homepage": "https://github.com/9kl/binance-websocket-kafka#readme",
+  "dependencies": {
+    "kafkajs": "^1.15.0",
+    "websocket": "^1.0.34"
+  }
+}
